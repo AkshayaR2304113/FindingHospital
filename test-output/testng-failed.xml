@@ -8,20 +8,4 @@
       <class name="testCases.TC_01_DoctorSearch"/>
     </classes>
   </test> <!-- Test -->
-  <test parallel="none" name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="testCases.TC_01_DoctorSearch">
-        <methods>
-          <include name="sortD"/>
-          <include name="closure"/>
-          <include name="GetName"/>
-          <include name="FormValidation"/>
-          <include name="setup"/>
-          <include name="search"/>
-          <include name="surLst"/>
-        </methods>
-      </class> <!-- testCases.TC_01_DoctorSearch -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

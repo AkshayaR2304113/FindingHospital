@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,41 +91,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 5 failed,   </span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC_01_DoctorSearch" class="method navigator-link" hash-for-method="FormValidation">FormValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC_01_DoctorSearch" class="method navigator-link" hash-for-method="GetName">GetName</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC_01_DoctorSearch" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC_01_DoctorSearch" class="method navigator-link" hash-for-method="sortD">sortD</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC_01_DoctorSearch" class="method navigator-link" hash-for-method="surLst">surLst</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -137,9 +137,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">testCases.TC_01_DoctorSearch</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -148,33 +148,6 @@
                   <a name="FormValidation">
                   </a> <!-- FormValidation -->
                   <span class="method-name">FormValidation</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [375a314e715ea81002bfb0dc87ad4b07, findElement {using=xpath, value=//div/div/span/span[text()=&apos;For Corporates&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61374/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 375a314e715ea81002bfb0dc87ad4b07
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-	at pageObjects.Corporate.Corporate_Nav(Corporate.java:61)
-	at testCases.TC_01_DoctorSearch.FormValidation(TC_01_DoctorSearch.java:151)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -182,33 +155,6 @@ Session ID: 375a314e715ea81002bfb0dc87ad4b07
                   <a name="GetName">
                   </a> <!-- GetName -->
                   <span class="method-name">GetName</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [375a314e715ea81002bfb0dc87ad4b07, findElements {using=xpath, value=//div/a/div/h2[@data-qa-id=&apos;doctor_name&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61374/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 375a314e715ea81002bfb0dc87ad4b07
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:371)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:83)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.iterator(Unknown Source)
-	at pageObjects.GetDocName.Doctor_Nav(GetDocName.java:35)
-	at testCases.TC_01_DoctorSearch.GetName(TC_01_DoctorSearch.java:114)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -216,33 +162,6 @@ Session ID: 375a314e715ea81002bfb0dc87ad4b07
                   <a name="search">
                   </a> <!-- search -->
                   <span class="method-name">search</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [375a314e715ea81002bfb0dc87ad4b07, findElement {using=xpath, value=//div/input[@data-qa-id=&apos;omni-searchbox-locality&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61374/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 375a314e715ea81002bfb0dc87ad4b07
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.clear(Unknown Source)
-	at pageObjects.FindingDoctors.location_Nav(FindingDoctors.java:38)
-	at testCases.TC_01_DoctorSearch.search(TC_01_DoctorSearch.java:44)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -250,33 +169,6 @@ Session ID: 375a314e715ea81002bfb0dc87ad4b07
                   <a name="sortD">
                   </a> <!-- sortD -->
                   <span class="method-name">sortD</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [375a314e715ea81002bfb0dc87ad4b07, findElement {using=xpath, value=(//div/span/i[@class=&apos;u-transition--transform u-d-inlineblock icon-ic_dropdown u-f-right&apos;])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61374/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 375a314e715ea81002bfb0dc87ad4b07
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-	at pageObjects.FilterDoctor.PStories_Nav(FilterDoctor.java:45)
-	at testCases.TC_01_DoctorSearch.sortD(TC_01_DoctorSearch.java:68)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -284,37 +176,10 @@ Session ID: 375a314e715ea81002bfb0dc87ad4b07
                   <a name="surLst">
                   </a> <!-- surLst -->
                   <span class="method-name">surLst</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [375a314e715ea81002bfb0dc87ad4b07, findElement {using=xpath, value=//div/a/div[text()=&apos;Surgeries&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61374/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 375a314e715ea81002bfb0dc87ad4b07
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-	at pageObjects.Surgeries.Surgery_Nav(Surgeries.java:46)
-	at testCases.TC_01_DoctorSearch.surLst(TC_01_DoctorSearch.java:129)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -331,22 +196,6 @@ Session ID: 375a314e715ea81002bfb0dc87ad4b07
       &lt;class name=&quot;testCases.TC_01_DoctorSearch&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
-  &lt;test parallel=&quot;none&quot; name=&quot;Test(failed)&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_01_DoctorSearch&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;sortD&quot;/&gt;
-          &lt;include name=&quot;closure&quot;/&gt;
-          &lt;include name=&quot;GetName&quot;/&gt;
-          &lt;include name=&quot;FormValidation&quot;/&gt;
-          &lt;include name=&quot;setup&quot;/&gt;
-          &lt;include name=&quot;search&quot;/&gt;
-          &lt;include name=&quot;surLst&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testCases.TC_01_DoctorSearch --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test(failed) --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -359,9 +208,6 @@ Session ID: 375a314e715ea81002bfb0dc87ad4b07
             <ul>
               <li>
                 <span class="test-name">Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Test(failed) (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -389,30 +235,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'search')
+data.setCell(0, 1, 'FormValidation')
 data.setCell(0, 2, 'testCases.TC_01_DoctorSearch')
-data.setCell(0, 3, 45621);
+data.setCell(0, 3, 120295);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'FormValidation')
+data.setCell(1, 1, 'surLst')
 data.setCell(1, 2, 'testCases.TC_01_DoctorSearch')
-data.setCell(1, 3, 43);
+data.setCell(1, 3, 71401);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'GetName')
+data.setCell(2, 1, 'sortD')
 data.setCell(2, 2, 'testCases.TC_01_DoctorSearch')
-data.setCell(2, 3, 37);
+data.setCell(2, 3, 46804);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'surLst')
+data.setCell(3, 1, 'search')
 data.setCell(3, 2, 'testCases.TC_01_DoctorSearch')
-data.setCell(3, 3, 33);
+data.setCell(3, 3, 23240);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'sortD')
+data.setCell(4, 1, 'GetName')
 data.setCell(4, 2, 'testCases.TC_01_DoctorSearch')
-data.setCell(4, 3, 29);
+data.setCell(4, 3, 13414);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -444,38 +290,28 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">search</span>
-                <span class="method-start">56687 ms</span>
+                <span class="method-start">54352 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">sortD</span>
-                <span class="method-start">102396 ms</span>
+                <span class="method-start">77681 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">GetName</span>
-                <span class="method-start">102431 ms</span>
+                <span class="method-start">124558 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">surLst</span>
-                <span class="method-start">102474 ms</span>
+                <span class="method-start">137974 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">FormValidation</span>
-                <span class="method-start">102523 ms</span>
+                <span class="method-start">209390 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closure</span>
-                <span class="method-start">102571 ms</span>
+                <span class="method-start">329717 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
